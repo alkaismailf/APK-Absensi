@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 26, 2021 at 01:36 PM
+-- Generation Time: Nov 22, 2021 at 03:33 AM
 -- Server version: 10.1.34-MariaDB
 -- PHP Version: 7.2.8
 
@@ -154,7 +154,10 @@ INSERT INTO `tb_absensi` (`id_absen`, `nip`, `tgl_absensi`, `hadir`, `sakit`, `i
 (57, 13030052, '2021-06-25', 1, 0, 0, 0, NULL, NULL),
 (58, 13030052, '2021-06-28', 1, 0, 0, 0, NULL, NULL),
 (59, 13030052, '2021-06-29', 0, 0, 1, 0, NULL, NULL),
-(60, 13030052, '2021-06-30', 0, 0, 1, 0, NULL, NULL);
+(60, 13030052, '2021-06-30', 0, 0, 1, 0, NULL, NULL),
+(61, 13010051, '2021-11-18', 0, 1, 0, 0, '2021-11-18 06:45:03', '2021-11-18 06:45:03'),
+(62, 13010050, '2021-11-18', 1, 0, 0, 0, '2021-11-18 06:47:39', '2021-11-18 06:47:39'),
+(63, 12020042, '2021-11-18', 0, 0, 1, 0, '2021-11-18 06:54:21', '2021-11-18 06:54:21');
 
 -- --------------------------------------------------------
 
@@ -276,7 +279,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `tb_absensi`
 --
 ALTER TABLE `tb_absensi`
-  MODIFY `id_absen` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id_absen` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT for table `tb_karyawan`
